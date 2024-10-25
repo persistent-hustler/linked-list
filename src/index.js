@@ -8,5 +8,7 @@ list.append('parrot');
 list.append('hamster');
 list.append('snake');
 list.prepend('turtle');
+list.insertAt('penguin', 6);
+list.removeAt(2);
 
-console.log(`List: ${list.toString()}`, `Size: ${list.getSize()}`, `Head: ${list.getHead().value}`, `Tail: ${list.getTail().value}`, `at(2): ${list.at(2).value}`, `Contains parrot: ${list.contains('parrot')}`, `Find Snake: ${list.find('snake')}`);
+console.log(`List: ${list.toString()}`, `Size: ${list.getSize()}`, `Head: ${list.getHead().value}`, `Tail: ${list.getTail().value}`, `at(2): ${list.at(2).value}`, `Contains parrot: ${list.contains('parrot')}`, `Find Snake: ${list.find('snake')}`,);
